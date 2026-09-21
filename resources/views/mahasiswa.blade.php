@@ -28,33 +28,37 @@
                                 style="width: 120px; height: 120px; object-fit: cover;">
                         </div>
                         <div class="card-body p-0">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <span class="fw-bold text-muted">Nama</span>
-                                    <span>{{ $mahasiswa['nama'] }}</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <span class="fw-bold text-muted">NIM</span>
-                                    <span>{{ $mahasiswa['nim'] }}</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <span class="fw-bold text-muted">Email</span>
-                                    <span>{{ $mahasiswa['email'] }}</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <span class="fw-bold text-muted">Prodi Studi</span>
-                                    <span>{{ $mahasiswa['prodi'] }}</span>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <span class="fw-bold text-muted">Kampus</span>
-                                    <span>{{ $mahasiswa['kampus'] }}</span>
-                                </li>
-                            </ul>
                         </div>
+                        <h4 class="mb-0 fw-bold">{{ $mahasiswa['nama'] }}</h4>
+                        <span class="badge bg-success mt-1">{{ $mahasiswa['status'] }}</span>
                     </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-bold text-muted">Nama</span>
+                            <span>{{ $mahasiswa['nama'] }}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-bold text-muted">NIM</span>
+                            <span>{{ $mahasiswa['nim'] }}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-bold text-muted">Email</span>
+                            <span>{{ $mahasiswa['email'] }}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-bold text-muted">Prodi Studi</span>
+                            <span>{{ $mahasiswa['prodi'] }}</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <span class="fw-bold text-muted">Kampus</span>
+                            <span>{{ $mahasiswa['kampus'] }}</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     <footer class="bg-white text-muted py-3 border-top text-center">
         <small>&copy; 2026 All rights reserved.</small>
