@@ -7,8 +7,8 @@
                 <div class="card shadow-sm border-0">
                     <div class="card-header bg-white text-center py-4">
                         <div class="d-flex justify-content-center mb-3">
-                            <img src="https://iift-e.my.id/storage/about/01X7OSW4A556EE454CH16SP704X.png"
-                                alt=""
+                            <img src="https://i.ibb.co.com/60J6WRm9/download-2.jpg"
+                                alt="https://ibb.co.com/60J6WRm9"
                                 style="width: 120px; height: 120px; object-fit: cover;">
                         </div>
                         <div class="card-body p-0">

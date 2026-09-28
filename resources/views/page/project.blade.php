@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Home')
+@section('title', 'Project')
 
 @section('content')
     <div class="container flex-grow-1">
